@@ -15,7 +15,7 @@ Plug 'andymass/vim-matchup'
 Plug 'jiangmiao/auto-pairs'
 
 " Emmet for web
-Plug 'Plug mattn/emmet-vim'
+Plug 'mattn/emmet-vim'
 
 Plug 'preservim/nerdtree' 
 
