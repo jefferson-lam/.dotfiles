@@ -1,0 +1,27 @@
+onboarding = false
+# herdr configuration — mirrors the shortcuts from ~/.tmux.conf
+
+[keys]
+# Matches tmux: set -g prefix C-Space / bind Space send-prefix
+prefix = "ctrl+space"
+
+# Matches tmux: bind j / C-j -> split-window -v (stacked top/bottom)
+split_horizontal = "prefix+j"
+
+# Matches tmux: bind l / C-l -> split-window -h (side by side)
+split_vertical = "prefix+l"
+
+# Matches the vim-tmux-navigator plugin: direct Ctrl-h/j/k/l pane focus,
+# no prefix needed, same as it worked in tmux.
+focus_pane_left = "ctrl+h"
+focus_pane_down = "ctrl+j"
+focus_pane_up = "ctrl+k"
+focus_pane_right = "ctrl+l"
+
+[ui]
+# Matches tmux: set -g mouse on
+mouse_capture = true
+
+[theme]
+name = "rose-pine"
+auto_switch = false
